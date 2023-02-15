@@ -1,0 +1,19 @@
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #fff;
+  --text-color: #323238;
+
+  --bg-card-color: #E1E1E6;
+  --fill-svg-color: #323238;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizin: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
