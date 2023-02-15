@@ -96,3 +96,16 @@ main {
   border-radius: 2.4rem;
 }
 
+/* Card active classes */
+
+.activeBg {
+  fill: #02799D;
+  
+}
+
+.activePath {
+  fill: #fff;
+}
+
+
+
