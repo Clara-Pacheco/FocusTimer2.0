@@ -4,6 +4,7 @@ import { Events } from './events.js'
 
 import { sounds } from './sounds.js'
 
+import { Controls } from './controls.js'  
 
 const {
   forestCard,
@@ -28,6 +29,17 @@ const {
 
 const Sounds = sounds()
 
+const controls = Controls({
+  bgForestCard,
+  forestCardPath,
+  bgRainCard,
+  rainCardPath,
+  bgCafeteriaCard,
+  cafeteriaCardPath,
+  bgFireplaceCard,
+  fireplaceCardPath
+})
+
 Events({
   forestCard,
   rainCard,
@@ -47,8 +59,11 @@ Events({
   btnPlay,
   btnStop,
   btnPlus,
-  btnMinus
+  btnMinus,
+  controls
 })
+
+
 
 
 
