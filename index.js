@@ -2,16 +2,40 @@ import { elements } from './js/elements.js'
 
 import { Events } from './js/events.js'
 
+import { sounds } from './js/sounds.js'
+
 const {
   forestCard,
   rainCard,
   cafeteriaCard,
-  fireplaceCard
+  fireplaceCard,
+  bgForestCard,
+  forestCardPath,
+  bgRainCard,
+  rainCardPath,
+  bgCafeteriaCard,
+  cafeteriaCardPath,
+  bgFireplaceCard,
+  fireplaceCardPath
 } = elements 
 
-Events(
-  {forestCard,
+const Sounds = sounds()
+
+Events({
+  forestCard,
   rainCard,
   cafeteriaCard,
-  fireplaceCard})
+  fireplaceCard,
+  Sounds,
+  bgForestCard,
+  forestCardPath,
+  bgRainCard,
+  rainCardPath,
+  bgCafeteriaCard,
+  cafeteriaCardPath,
+  bgFireplaceCard,
+  fireplaceCardPath
+})
+
+
 
