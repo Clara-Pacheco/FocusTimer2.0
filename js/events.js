@@ -11,7 +11,13 @@ export function Events({
   cafeteriaCardPath,
   bgFireplaceCard,
   fireplaceCardPath,
-  Sounds
+  Sounds,
+  minutes,
+  seconds,
+  btnPlay,
+  btnStop,
+  btnPlus,
+  btnMinus
 }){
 
   function toggleForestCard(){
