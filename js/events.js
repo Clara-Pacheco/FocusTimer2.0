@@ -40,6 +40,24 @@ export function Events({
     fireplaceCardPath.classList.toggle('activePath')
   }
 
+  function endToggleCards(){
+    if(bgForestCard.classList.contains('activeBg')){
+      toggleForestCard()
+    }
+
+    if(bgRainCard.classList.contains('activeBg')){
+      toggleRainCard()
+    }
+
+    if(bgCafeteriaCard.classList.contains('activeBg')){
+      toggleCafeteriaCard()
+    }
+
+    if(bgFireplaceCard.classList.contains('activeBg')){
+      toggleFireplaceCard()
+    }
+  }
+
   let countDownTimer 
 
   function countDown(){
@@ -53,6 +71,7 @@ export function Events({
       if(isFinished){
         Sounds.timeOff()
         updateTimerDisplay(minutesDisplay,secondsDisplay)
+        endToggleCards()
         Sounds.stopCafeteriaSound()
         Sounds.stopFireplaceSound()
         Sounds.stopForestSound()
@@ -130,6 +149,15 @@ export function Events({
 
   btnStop.addEventListener('click', () => {
     clearTimeout(countDownTimer)
+    Sounds.stopCafeteriaSound()
+    Sounds.stopFireplaceSound()
+    Sounds.stopForestSound()
+    Sounds.stopRainSound()
+    endToggleCards()
+   
+    minutes.innerText = '25'
+    seconds.innerText = '00'
+
   })
 
   btnPlus.addEventListener('click', () => {
