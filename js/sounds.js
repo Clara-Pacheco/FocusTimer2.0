@@ -3,6 +3,7 @@ export function sounds () {
   const rainSound = new Audio('assets/sounds/Chuva.wav')
   const forestSound = new Audio('assets/sounds/Floresta.wav')
   const fireplaceSound = new Audio('assets/sounds/Lareira.wav')
+  const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
   cafeteriaSound.loop = true
   rainSound.loop = true
@@ -41,6 +42,10 @@ export function sounds () {
     fireplaceSound.pause()
   }
 
+  function timeOff() {
+    kitchenTimer.play()
+   }
+
   return {
     playCafeteriaSound,
     stopCafeteriaSound,
@@ -49,7 +54,8 @@ export function sounds () {
     playForestSound,
     stopForestSound,
     playFireplaceSound,
-    stopFireplaceSound
+    stopFireplaceSound,
+    timeOff
   }
 
 
