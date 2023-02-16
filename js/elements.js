@@ -10,6 +10,12 @@ const bgCafeteriaCard = document.querySelector('#bg-icon-cafeteria')  // icon-ba
 const cafeteriaCardPath = document.querySelector('#path-icon-cafeteria') // icon-drawing
 const bgFireplaceCard = document.querySelector('#bg-icon-fireplace')  // icon-background
 const fireplaceCardPath = document.querySelector('#path-icon-fireplace') // icon-drawing
+const minutes = document.querySelector('.minutes')
+const seconds = document.querySelector('.seconds')
+const btnPlay = document.querySelector('.btn-play')
+const btnStop = document.querySelector('.btn-stop')
+const btnPlus = document.querySelector('.btn-plus')
+const btnMinus = document.querySelector('.btn-minus')
 
  export const elements = {
   forestCard,
@@ -23,6 +29,12 @@ const fireplaceCardPath = document.querySelector('#path-icon-fireplace') // icon
   bgCafeteriaCard,
   cafeteriaCardPath,
   bgFireplaceCard,
-  fireplaceCardPath
+  fireplaceCardPath,
+  minutes,
+  seconds,
+  btnPlay,
+  btnStop,
+  btnPlus,
+  btnMinus
 
 }
