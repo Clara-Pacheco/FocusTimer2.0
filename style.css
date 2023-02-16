@@ -96,7 +96,7 @@ main {
   border-radius: 2.4rem;
 }
 
-/* Card active classes for forest,cafeteria and fireplace*/
+/* Card active classes */
 
 .activeBg {
   fill: #02799D;
@@ -107,15 +107,6 @@ main {
   fill: #fff;
 }
 
-/* Card active classes for rain */
-.activeBgRain {
-  fill: #E1E1E6;
-  
-}
-
-.activePathRain {
-  fill: #323238;
-}
 
 
 
