@@ -1,8 +1,8 @@
-import { elements } from './js/elements.js'
+import { elements } from './elements.js'
 
-import { Events } from './js/events.js'
+import { Events } from './events.js'
 
-import { sounds } from './js/sounds.js'
+import { sounds } from './sounds.js'
 
 
 const {
