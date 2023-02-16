@@ -16,7 +16,13 @@ const {
   bgCafeteriaCard,
   cafeteriaCardPath,
   bgFireplaceCard,
-  fireplaceCardPath
+  fireplaceCardPath,
+  minutes,
+  seconds,
+  btnPlay,
+  btnStop,
+  btnPlus,
+  btnMinus
 } = elements 
 
 const Sounds = sounds()
@@ -34,7 +40,13 @@ Events({
   bgCafeteriaCard,
   cafeteriaCardPath,
   bgFireplaceCard,
-  fireplaceCardPath
+  fireplaceCardPath,
+  minutes,
+  seconds,
+  btnPlay,
+  btnStop,
+  btnPlus,
+  btnMinus
 })
 
 
