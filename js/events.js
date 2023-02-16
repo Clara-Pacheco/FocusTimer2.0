@@ -2,37 +2,34 @@ export function Events({
   forestCard,
   rainCard,
   cafeteriaCard,
-  fireplaceCard
+  fireplaceCard,
+  bgForestCard,
+  forestCardPath,
+  bgRainCard,
+  rainCardPath,
+  bgCafeteriaCard,
+  cafeteriaCardPath,
+  bgFireplaceCard,
+  fireplaceCardPath,
+  Sounds
 }){
 
   function toggleForestCard(){
-    const bgForestCard = document.querySelector('#bg-icon-forest')  // icon-background
-    const forestCardPath = document.querySelector('#path-icon-forest') // icon-drawing
-
     bgForestCard.classList.toggle('activeBg')
     forestCardPath.classList.toggle('activePath')
   }
 
   function toggleRainCard(){
-    const bgRainCard = document.querySelector('#bg-icon-rain')  // icon-background
-    const rainCardPath = document.querySelector('#path-icon-rain') // icon-drawing
-
-    bgRainCard.classList.toggle('activeBgRain')
-    rainCardPath.classList.toggle('activePathRain')
+    bgRainCard.classList.toggle('activeBg')
+    rainCardPath.classList.toggle('activePath')
   }
 
   function toggleCafeteriaCard() {
-    const bgCafeteriaCard = document.querySelector('#bg-icon-cafeteria')  // icon-background
-    const cafeteriaCardPath = document.querySelector('#path-icon-cafeteria') // icon-drawing
-
     bgCafeteriaCard.classList.toggle('activeBg')
     cafeteriaCardPath.classList.toggle('activePath')
   }
 
   function toggleFireplaceCard() {
-    const bgFireplaceCard = document.querySelector('#bg-icon-fireplace')  // icon-background
-    const fireplaceCardPath = document.querySelector('#path-icon-fireplace') // icon-drawing
-
     bgFireplaceCard.classList.toggle('activeBg')
     fireplaceCardPath.classList.toggle('activePath')
   }
@@ -40,18 +37,41 @@ export function Events({
 
   forestCard.addEventListener('click', () => {
     toggleForestCard()
+    if(bgForestCard.classList.contains('activeBg')){
+      Sounds.playForestSound()
+    }else {
+      Sounds.stopForestSound()
+    }  
   })
 
   rainCard.addEventListener('click', () => {
     toggleRainCard()
+    if(bgRainCard.classList.contains('activeBg')){
+      Sounds.playRainSound()
+    }else{
+      Sounds.stopRainSound()
+    }
+
   })
 
   cafeteriaCard.addEventListener('click', () => {
     toggleCafeteriaCard()
+    if(bgCafeteriaCard.classList.contains('activeBg')){
+      Sounds.playCafeteriaSound()
+    }else {
+      Sounds.stopCafeteriaSound()
+    }
+   
   })
 
   fireplaceCard.addEventListener('click', () => {
     toggleFireplaceCard()
+    if(bgFireplaceCard.classList.contains('activeBg')){
+      Sounds.playFireplaceSound()
+    }else {
+      Sounds.stopFireplaceSound()
+    }
+   
   })
 
 }
