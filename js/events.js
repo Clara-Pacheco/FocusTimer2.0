@@ -17,46 +17,47 @@ export function Events({
   btnPlay,
   btnStop,
   btnPlus,
-  btnMinus
+  btnMinus,
+  controls
 }){
 
-  function toggleForestCard(){
-    bgForestCard.classList.toggle('activeBg')
-    forestCardPath.classList.toggle('activePath')
-  }
+  // function toggleForestCard(){
+  //   bgForestCard.classList.toggle('activeBg')
+  //   forestCardPath.classList.toggle('activePath')
+  // }
 
-  function toggleRainCard(){
-    bgRainCard.classList.toggle('activeBg')
-    rainCardPath.classList.toggle('activePath')
-  }
+  // function toggleRainCard(){
+  //   bgRainCard.classList.toggle('activeBg')
+  //   rainCardPath.classList.toggle('activePath')
+  // }
 
-  function toggleCafeteriaCard() {
-    bgCafeteriaCard.classList.toggle('activeBg')
-    cafeteriaCardPath.classList.toggle('activePath')
-  }
+  // function toggleCafeteriaCard() {
+  //   bgCafeteriaCard.classList.toggle('activeBg')
+  //   cafeteriaCardPath.classList.toggle('activePath')
+  // }
 
-  function toggleFireplaceCard() {
-    bgFireplaceCard.classList.toggle('activeBg')
-    fireplaceCardPath.classList.toggle('activePath')
-  }
+  // function toggleFireplaceCard() {
+  //   bgFireplaceCard.classList.toggle('activeBg')
+  //   fireplaceCardPath.classList.toggle('activePath')
+  // }
 
-  function endToggleCards(){
-    if(bgForestCard.classList.contains('activeBg')){
-      toggleForestCard()
-    }
+  // function endToggleCards(){
+  //   if(bgForestCard.classList.contains('activeBg')){
+  //     toggleForestCard()
+  //   }
 
-    if(bgRainCard.classList.contains('activeBg')){
-      toggleRainCard()
-    }
+  //   if(bgRainCard.classList.contains('activeBg')){
+  //     toggleRainCard()
+  //   }
 
-    if(bgCafeteriaCard.classList.contains('activeBg')){
-      toggleCafeteriaCard()
-    }
+  //   if(bgCafeteriaCard.classList.contains('activeBg')){
+  //     toggleCafeteriaCard()
+  //   }
 
-    if(bgFireplaceCard.classList.contains('activeBg')){
-      toggleFireplaceCard()
-    }
-  }
+  //   if(bgFireplaceCard.classList.contains('activeBg')){
+  //     toggleFireplaceCard()
+  //   }
+  // }
 
   let countDownTimer 
 
@@ -102,7 +103,7 @@ export function Events({
   // Card events
 
   forestCard.addEventListener('click', () => {
-    toggleForestCard()
+    controls.toggleForestCard()
     if(bgForestCard.classList.contains('activeBg')){
       Sounds.playForestSound()
     }else {
@@ -111,7 +112,7 @@ export function Events({
   })
 
   rainCard.addEventListener('click', () => {
-    toggleRainCard()
+    controls.toggleRainCard()
     if(bgRainCard.classList.contains('activeBg')){
       Sounds.playRainSound()
     }else{
@@ -121,7 +122,7 @@ export function Events({
   })
 
   cafeteriaCard.addEventListener('click', () => {
-    toggleCafeteriaCard()
+    controls.toggleCafeteriaCard()
     if(bgCafeteriaCard.classList.contains('activeBg')){
       Sounds.playCafeteriaSound()
     }else {
@@ -131,7 +132,7 @@ export function Events({
   })
 
   fireplaceCard.addEventListener('click', () => {
-    toggleFireplaceCard()
+    controls.toggleFireplaceCard()
     if(bgFireplaceCard.classList.contains('activeBg')){
       Sounds.playFireplaceSound()
     }else {
@@ -153,7 +154,7 @@ export function Events({
     Sounds.stopFireplaceSound()
     Sounds.stopForestSound()
     Sounds.stopRainSound()
-    endToggleCards()
+    controls.endToggleCards()
    
     minutes.innerText = '25'
     seconds.innerText = '00'
