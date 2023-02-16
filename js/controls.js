@@ -53,7 +53,7 @@ export function Controls({
     toggleRainCard,
     toggleCafeteriaCard,
     toggleFireplaceCard,
-    endToggleCards
+    endToggleCards 
   }
 
 }
