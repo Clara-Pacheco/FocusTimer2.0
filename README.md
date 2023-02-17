@@ -69,7 +69,7 @@ no decorrer do programa <b>Explorer</b>.
 
 🕛 **Status:** Concluído✔️
 
-🌎 **Result Preview:** 
+🌎 **Result Preview:** https://pomodoro2.netlify.app/ 
 
 <div align="center">
 Feito com 💜 por Clara 🚀
