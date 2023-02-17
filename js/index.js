@@ -6,6 +6,8 @@ import { sounds } from './sounds.js'
 
 import { Controls } from './controls.js'  
 
+import { Timer } from './timer.js'
+
 const {
   forestCard,
   rainCard,
@@ -40,6 +42,13 @@ const controls = Controls({
   fireplaceCardPath
 })
 
+const timer = Timer({
+  minutes,
+  seconds,
+  Sounds,
+  controls
+})
+
 Events({
   forestCard,
   rainCard,
@@ -60,7 +69,9 @@ Events({
   btnStop,
   btnPlus,
   btnMinus,
-  controls
+  controls,
+  timer
+  
 })
 
 
