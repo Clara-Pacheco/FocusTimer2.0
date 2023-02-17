@@ -59,6 +59,8 @@ no decorrer do programa <b>Explorer</b>.
 
 <br>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/905d5928-53ac-4c35-a124-62600646ec89/deploy-status)](https://app.netlify.com/sites/pomodoro2/deploys)
+
 ### Informações  
 
 📅 **Início:** 15.02.2023
