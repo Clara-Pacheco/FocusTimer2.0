@@ -9,6 +9,8 @@
 </p>
 </div>
 
+<br>
+
 ## 💻 Sobre o desafio
 
 Principais pontos abordados nesse desafio:
@@ -25,27 +27,37 @@ Principais pontos abordados nesse desafio:
 - Modularização,
 - Refatoração
 
+<br>
+
 ## 📕 Layout da aplicação  
 
 Aqui neste **[link](https://www.figma.com/file/5A3JsCkQFfg0qtX1aNQ0II/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0%3A4&t=aTRSd4Gq0ZzOrP9k-0)**  você tem acesso ao Figma do projeto**.** 
 
-⚠️ **Alerta**: Caso ao clicar no link você se depare com o erro que `WebGL` não está ativado no seu navegador, [siga esses passos](https://help.figma.com/hc/en-us/articles/360039828614#Enable_WebGL).
+⚠️ **Alerta**: Caso ao clicar no link você se depare com o erro que `WebGL` não está ativado no seu navegador, [siga esses passos](https://help.figma.com/hc/en-us/articles/360039828614#Enable_WebGL).  
+
+<br>
 
 ## 💻 Projeto
 
 O resultado final desse desafio deve ser algo em torno de:
 
-![Project´s preview](https://github.com/Clara-Pacheco/FocusTimer2.0/blob/main/assets/project-preview/FocusTimer.png)
+![Project´s preview](https://github.com/Clara-Pacheco/FocusTimer2.0/blob/main/assets/project-preview/FocusTimer.png)  
+
+<br>
 
 ## 🧪 Tecnologias | HTML , CSS e Javascript
 ---
-Nesse desafio, iremos criar uma aplicação do tipo pomodoro(focus timer), onde, através de botões + e -, iremos aumentar ou diminuir o tempo do temporizador de 5 em 5 minutos. Foi adicionado também cards do lado direito, que, ao serem selecionados, mudam de cor e emitim um som diferente. O som e a cor dos cards trabalham em sincronização com o temporizador.
+Nesse desafio, iremos criar uma aplicação do tipo pomodoro(focus timer), onde, através de botões + e -, iremos aumentar ou diminuir o tempo do temporizador de 5 em 5 minutos. Foi adicionado também cards do lado direito, que, ao serem selecionados, mudam de cor e emitim um som diferente. O som e a cor dos cards trabalham em sincronização com o temporizador.  
+
+<br>
 
 ##  📕 Sobre  
 
 <p>Este é um projeto desenvolvido em treinamento, juntamente com a 
-<a  href="https://www.rocketseat.com.br">Rocketseat</a> 🚀
-no decorrer do programa <b>Explorer</b>.
+<a  href="https://www.rocketseat.com.br">Rocketseat</a> 🚀  
+no decorrer do programa <b>Explorer</b>.  
+
+<br>
 
 ### Informações  
 
