@@ -102,6 +102,7 @@ export function Events({
     }
 
     if(seconds.innerText < 0){
+      minutes.innerText = Number(minutes.innerText) - 1
       seconds.innerText = 59
     }
 
