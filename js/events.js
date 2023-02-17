@@ -98,8 +98,13 @@ export function Events({
 
     if(seconds.innerText == 0){
       minutes.innerText = Number(minutes.innerText) - 1
-      seconds.innerText = 60
+      seconds.innerText = 59
     }
+
+    if(seconds.innerText < 0){
+      seconds.innerText = 59
+    }
+
 
     timer.updateTimerDisplay(minutes.innerText,seconds.innerText)
   })
