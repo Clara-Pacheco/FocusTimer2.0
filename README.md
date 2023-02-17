@@ -6,6 +6,8 @@
 <img src="https://img.shields.io/github/last-commit/Clara-Pacheco/FocusTimer2.0"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/github/repo-size/Clara-Pacheco/FocusTimer2.0"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/github/languages/count/Clara-Pacheco/FocusTimer2.0"/>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/905d5928-53ac-4c35-a124-62600646ec89/deploy-status)](https://app.netlify.com/sites/pomodoro2/deploys)
 </p>
 </div>
 
@@ -58,8 +60,6 @@ Nesse desafio, iremos criar uma aplicação do tipo pomodoro(focus timer), onde,
 no decorrer do programa <b>Explorer</b>.  
 
 <br>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/905d5928-53ac-4c35-a124-62600646ec89/deploy-status)](https://app.netlify.com/sites/pomodoro2/deploys)
 
 ### Informações  
 
